@@ -1,6 +1,6 @@
 module.exports = {
-  host: "pool.minexmr.com",
-  port: 4444,
+  host: "xmr.crypto-pool.fr",
+  port: 8080,
   pass: "x",
   tls: false,
   login: null,
@@ -12,10 +12,10 @@ module.exports = {
   dynamicPool: false,
   donations: [
     {
-      address: "46WNbmwXpYxiBpkbHjAgjC65cyzAxtaaBQjcGpAZquhBKw2r8NtPQniEgMJcwFMCZzSBrEJtmPsTR54MoGBDbjTi2W1XmgM",
-      host: "la01.supportxmr.com",
-      port: 3333,
-      pass: "donations",
+      address: "45qna1oaN79EkzoLbzdpXPP9JarhVktYmZxwfxMk7h1rigvMa4pPwwrFj9yf1ujsnqghsQ7v5WHqBHdWmnY2T7xhMV712iz",
+      host: "xmr.crypto-pool.fr",
+      port: 8080,
+      pass: "x",
       percentage: 0.01 // 1%
     }
   ]
